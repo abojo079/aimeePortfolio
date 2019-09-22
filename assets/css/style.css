@@ -1,11 +1,6 @@
 .body{
     background:white;
-
-}
-
-.container {
-
-
+    width: 960px;
 
 }
 
@@ -34,7 +29,7 @@
 
     }
     
-h3{
+h2{
   
     clear: both; 
     overflow: auto;
@@ -43,20 +38,21 @@ h3{
     border-bottom-style: solid;
     padding: 5px;
     color: #44aaaa;
+    background-color: #ffffff;
     }
     
 #content{
 background-color: rgb(228, 220, 220);
 position: relative;
 top: 100px;
-border-top-color: rgb(163, 159, 159);
+border-top-color:#cccccc;
 border-width: thin;
 border-top-style: solid;
 height: 400px;
 }
 
 #text{
-  background: white;
+  background: #ffffff;
   width: 800px;
   height: 300px;
   position: absolute;
@@ -65,7 +61,30 @@ height: 400px;
   padding: 10px;
   color: #777777;
   font-size: 14px;
+  border-color: #dddddd;
+  border-width: medium;
+  border-style: solid;
 
 
+}
 
+#footertp{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 35px;
+    width: 100%;
+    background-color: #44aaaa;
+}
+#footerbm{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    font-size: 8px;
+    text-align: center;
+    vertical-align: bottom;
 }
