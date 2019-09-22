@@ -1,6 +1,5 @@
 .body{
     background:white;
-    width: 960px;
 
 }
 
@@ -53,11 +52,11 @@ height: 400px;
 
 #text{
   background: #ffffff;
-  width: 800px;
+  width: 960px;
   height: 300px;
   position: absolute;
   top: 30px;
-  right: 200px;
+  right: 50px;
   padding: 10px;
   color: #777777;
   font-size: 14px;
