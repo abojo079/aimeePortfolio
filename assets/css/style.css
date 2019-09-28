@@ -1,89 +1,127 @@
-.body{
-    background:white;
+body {
+    background: purple;
 
 }
 
-#header {
+h6{
     background: #44aaaa;
     float: left;
-    width: 200px;
     text-align: center;
-    margin-top: 30px;
-    margin-left: 150px;
+    position: fixed;
+    top: 55px;
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    left: 162px;
+
+
 }
 
-#link {
-    background: white;
+#links {
+    background-color: white;
     float: left;
-    text-align: right;
     margin-top: 70px;
     width: 600px;
     margin-right: 50px;
+    
+    
+
+}
+
+.link{
     font-size: 14px;
-    color: #e6e1e1;
+    color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-
-    }
+    background-color: white;
+}
     
-h2{
+h5{
   
-    clear: both; 
-    overflow: auto;
-    border-bottom-color: rgb(226, 221, 221);
-    border-width: medium;
-    border-bottom-style: solid;
-    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 600px;
+    padding: 25px;
     color: #44aaaa;
-    background-color: #ffffff;
+    background-color:white;
+    height: 65px;
+    border-bottom-color: rgb(226, 221, 221);
+    border-width: thin;
+    border-bottom-style: solid;
+    margin-right: 55px;
+
+
+
     }
     
 #content{
-background-color: rgb(228, 220, 220);
-position: relative;
-top: 100px;
+background-color: blue;
+height: 500px;
+top: 300px;
 border-top-color:#cccccc;
 border-width: thin;
 border-top-style: solid;
-height: 400px;
+
+
 }
 
 #text{
-  background: #ffffff;
-  width: 960px;
-  height: 300px;
-  position: absolute;
-  top: 30px;
-  right: 50px;
-  padding: 10px;
-  color: #777777;
+  background:white;
+  height: 340px;
+  color: black;
   font-size: 14px;
   border-color: #dddddd;
-  border-width: medium;
+  border-width: thin;
   border-style: solid;
+  position: relative;
+  top: 10px;
+
+  }
+#border
+{
+    border-bottom-color: rgb(226, 221, 221);
+    border-width: medium;
+    border-bottom-style: solid;
+
 
 
 }
 
 #footertp{
-    position: absolute;
-    left: 0;
-    bottom: 0;
+  
     height: 35px;
-    width: 100%;
     background-color: #44aaaa;
+    height: 10px;
+
 }
 #footerbm{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 30px;
-    width: 100%;
+    
     background-color: grey;
     color: white;
     font-size: 8px;
     text-align: center;
     vertical-align: bottom;
+    padding-top: 30px;
+    height: 45px;
+}
+
+#photo {
+height: 125px;
+width: 100px;
+float: left;
+padding-right: 12px;
+position: relative;
+top: 5px;
+left: 23px;
+margin-right: 12px;
+overflow: auto;
+}
+
+p{
+    padding-left: 32px;
+    height: 55px;
+    font-size: 12px;
+    text-indent: 20px;
+    margin-right: 32px;
+
+
 }
