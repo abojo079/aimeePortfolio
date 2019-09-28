@@ -1,5 +1,5 @@
 body {
-    background: purple;
+    background: white;
 
 }
 
@@ -13,27 +13,16 @@ h6{
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
     left: 162px;
-
-
-}
-
-#links {
-    background-color: white;
-    float: left;
-    margin-top: 70px;
-    width: 600px;
-    margin-right: 50px;
-    
-    
-
 }
 
 .link{
     font-size: 14px;
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    background-color: white;
+    text-align: center;
+    position: fixed;
+    right: 190px;
+    top: 40px;
 }
     
 h5{
@@ -49,42 +38,7 @@ h5{
     border-bottom-style: solid;
     margin-right: 55px;
 
-
-
     }
-    
-#content{
-background-color: blue;
-height: 500px;
-top: 300px;
-border-top-color:#cccccc;
-border-width: thin;
-border-top-style: solid;
-
-
-}
-
-#text{
-  background:white;
-  height: 340px;
-  color: black;
-  font-size: 14px;
-  border-color: #dddddd;
-  border-width: thin;
-  border-style: solid;
-  position: relative;
-  top: 10px;
-
-  }
-#border
-{
-    border-bottom-color: rgb(226, 221, 221);
-    border-width: medium;
-    border-bottom-style: solid;
-
-
-
-}
 
 #footertp{
   
@@ -104,24 +58,56 @@ border-top-style: solid;
     height: 45px;
 }
 
-#photo {
+img {
 height: 125px;
 width: 100px;
 float: left;
 padding-right: 12px;
-position: relative;
-top: 5px;
-left: 23px;
-margin-right: 12px;
-overflow: auto;
+
 }
 
 p{
-    padding-left: 32px;
-    height: 55px;
-    font-size: 12px;
+
+    font-size: 14px;
     text-indent: 20px;
     margin-right: 32px;
+    color: black;
+    font-size: 14px;
+    overflow: auto;
+    clear: none;
+}
 
 
+.labels{
+
+width: 100%;
+margin: 8px 0;
+box-sizing: border-box;
+
+}
+.background {
+background-color:white;
+height:100%;
+
+
+}
+.container{
+background: rgb(128, 120, 120);
+position: relative;
+top: 99px;
+width: 100%;
+right: 8px;
+height: 500px;
+
+}
+
+section{
+background: white;
+position: relative;
+top: 20px;
+border: #777777;
+border-style: solid;
+border-width: thin;
+height: 450px;
+width: 800px;
 }
