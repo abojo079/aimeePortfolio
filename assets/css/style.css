@@ -97,7 +97,7 @@ position: relative;
 top: 99px;
 width: 100%;
 right: 8px;
-height: 500px;
+height: 550px;
 
 }
 
@@ -108,6 +108,49 @@ top: 20px;
 border: #777777;
 border-style: solid;
 border-width: thin;
-height: 450px;
-width: 800px;
+height: 540px;
+width: 850px;
+}
+
+#tablet{
+
+    height: 125px;
+    width: 180px;
+    float: left;
+    margin-bottom: 23px;
+
+
+}
+#spin{
+
+    height: 125px;
+    width: 180px;
+    float: left;
+
+
+}
+#headphones{
+
+    height: 125px;
+    width: 180px;
+    float: left;
+    margin-bottom: 23px;
+
+
+}
+#phone{
+
+    height: 125px;
+    width: 180px;
+    float: left;
+
+
+}
+#tv{
+
+    height: 125px;
+    width: 180px;
+    float: left;
+
+
 }
